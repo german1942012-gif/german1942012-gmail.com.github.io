@@ -1,258 +1,157 @@
-h1 {
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood;
-  border-radius: 10px 0 10px 0;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  border-block-style: double;
-}
-body{
- background-image: url(https://img.freepik.com/fotos-premium/ia-generativa-patas-gato-estetoscopio-aislados-fondo-azul-banner-espacio-copia_93150-35878.jpg);
- background-repeat: no-repeat;
-background-size:cover ;
-min-height: 100vh;
+html {
+  height: 100%;
 }
 
-  #parrafo1 { /* Cambiado de .parrafo1 a #parrafo1 */
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 3px solid burlywood;
-  border-radius: 9px 0 9px 0;
-  padding: 10px 0 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  border-block-style: double;
-  box-sizing: border-box;
- 
-
-
-}
-#parrafo2{
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 3px solid burlywood;
-  border-radius: 9px 0 9px 0;
-  padding: 10px 0 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  border-block-style: double;
-  box-sizing: border-box;
- 
-}
-a{
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood; /* Un borde sólido de 2px con tu color */
-  border-radius: 10px 0 10px 0; /* Bordes redondeados */
-  padding: 10px; /* Añade un poco de espacio dentro del h1 */
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
-  text-align: center;
-  border-block-style: double;
-}
-h2{
-  display: flex;
-flex-direction: column;
- display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood; /* Un borde sólido de 2px con tu color */
-  border-radius: 10px 0 10px 0; /* Bordes redondeados */
-  padding: 10px; /* Añade un poco de espacio dentro del h1 */
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-text-align: center;
-border-block-style: double;
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);}
-#moli{
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood; /* Un borde sólido de 2px con tu color */
-  border-radius: 10px 0 10px 0; /* Bordes redondeados */
-  padding: 10px; /* Añade un poco de espacio dentro del h1 */
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
-  text-align: center;
-  border-block-style: double;
-  
-  display: block; /* Asegura que el elemento se comporte como un bloque */
-  width: 50%; /* Define un ancho para la imagen (ajusta el porcentaje según necesites) */
-  margin: 20px auto; /* Centra la imagen horizontalmente y añade margen vertical */
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood;
-  border-radius: 10px 0 10px 0;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  border-block-style: double;
-  width: 100px;
-
-
-
-}
-/* --- Limpieza y Reorganización de CSS --- */
-
-/* Estilos para h1 (limpiado de duplicados) */
-h1 {
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood;
-  border-radius: 10px 0 10px 0;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  border-block-style: double;
-}
-
-/* Estilos para body */
 body {
-  background-image: url(https://img.freepik.com/fotos-premium/ia-generativa-patas-gato-estetoscopio-aislados-fondo-azul-banner-espacio-copia_93150-35878.jpg);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url(https://img2.huffingtonpost.es/files/image_720_480/uploads/2023/06/22/un-perro-de-raza-labrador.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  background-attachment: fixed; /* Opcional: hace que el fondo se quede fijo al hacer scroll */
+  background-color: #f0f0f0; /* Color de respaldo si la imagen no carga */
 }
 
-/* Estilos para #parrafo1 (limpiado de duplicados) */
-#parrafo1 {
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 3px solid burlywood;
-  border-radius: 9px 0 9px 0;
-  padding: 10px 0 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+/* --- ESTILOS PARA TÍTULOS H1 --- */
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  border-block-style: double;
-  box-sizing: border-box;
+  margin-top: 25px; 
+  margin-bottom: 15px; 
+  color: #333;
+  font-size: 1.8em; 
+  animation: slideUp 5s infinite;
 }
-
-/* Estilos para #parrafo2 (limpiado de duplicados) */
-#parrafo2 {
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 3px solid burlywood;
-  border-radius: 9px 0 9px 0;
-  padding: 10px 0 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  border-block-style: double;
-  box-sizing: border-box;
+@keyframes slideUp {
+  0% {transform: translateY(20px); opacity: 0;}
+  100% {transform: translateY(0); opacity: 1;}
 }
-
-/* Estilos para a (limpiado de duplicados) */
-a {
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood;
-  border-radius: 10px 0 10px 0;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  border-block-style: double;
-}
-
-/* Estilos para h2 (limpiado de duplicados) */
 h2 {
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 2px solid burlywood;
-  border-radius: 10px 0 10px 0;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  border-block-style: double;
+  margin-top: 25px; /* Espacio arriba para h2 */
+  margin-bottom: 15px; /* Espacio debajo */
+  color: #333;
+  font-size: 1.8em; /* Tamaño de fuente para h2 */
+
+  /* Propiedades de "marco" transparente para h2 */
+  border: 1px solid rgba(160, 82, 45, 0.4);
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(173, 216, 230, 0.05); /* Muy transparente */
+  box-sizing: border-box;
+  display: block; /* Asegura que sea un bloque normal */
 }
 
-/* Estilos para #moli (limpiado de duplicados) */
+/* --- ESTILOS PARA PÁRRAFOS PRINCIPALES (#parrafo1, #parrafo2) --- */
+#parrafo1, #parrafo2 {
+  display: flex; /* Mantiene flex para centrar el texto con los <br> y <strong> */
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid rgba(160, 82, 45, 0.4);
+  border-radius: 9px;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 5px rgba(211, 197, 197, 0.1);
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: rgba(173, 216, 230, 0.05);
+  box-sizing: border-box;
+}
+
+/* --- ESTILOS PARA ENLACES (a) --- */
+a {
+  display: block; /* Para que cada enlace ocupe su propia línea y se centre */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid rgba(160, 82, 45, 0.4);
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: rgba(173, 216, 230, 0.05);
+  box-sizing: border-box;
+  text-decoration: none; /* Opcional: quita el subrayado de los enlaces */
+  color: inherit; /* Opcional: hereda el color del texto del padre si lo deseas */
+   border: 1px solid peru;
+  border-radius: 20%;
+transition: relative;
+position: relative;
+z-index: 1;
+
+}
+
+/* --- ESTILOS PARA IMAGEN #moli --- */
 #moli {
   display: block;
-  width: 100px; /* Puedes ajustar este ancho o eliminarlo si la imagen es decorativa */
-  margin: 20px auto;
-  background-color: lightblue; /* Esto probablemente no se vea en una imagen */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Esto no afecta una imagen */
-  border: 2px solid burlywood;
-  border-radius: 10px 0 10px 0;
+  width: 360px;
+  margin: 20px auto 15px auto;
+  background-color: rgba(173, 216, 230, 0.05);
+  border-radius:  50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  text-align: center; /* Esto no afecta una imagen */
-  border-block-style: double;
+  box-sizing: border-box;
+  border: 1px solid peru;
+  border-radius: 20%;
+transition: relative;
+position: relative;
+z-index: 1;
 }
 
-/* Estilos específicos para #parrafo3 */
-#parrafo3 {
-  color: darkred;
-  background-color: lightcoral;
-}
-
-/* --- Estilos para los elementos lado a lado --- */
-
-/* Contenedor Flex para los párrafos */
+/* --- Contenedor Flex para los párrafos de contenido (cuadros de cuidados) --- */
 .contenido-doble {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre los cuadros */
+  flex-wrap: wrap; /* Permite que los cuadros se envuelvan a la siguiente línea */
   margin: 20px auto;
-  max-width: 900px;
+  max-width: 900px; /* Ancho máximo para el contenedor de los cuadros */
 }
 
-/* Estilos comunes para los párrafos dentro de .contenido-doble */
+/* Estilos comunes para los párrafos dentro de .contenido-doble (info-box) */
 .info-box {
-  width: 45%; /* Permite que dos ítems quepan lado a lado con un gap */
-  background-color: lightblue;
+  width: 45%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: 3px solid burlywood;
-  border-radius: 9px 0 9px 0;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(160, 82, 45, 0.4); /* Borde burlywood más fino y 40% transparente */
+  border-radius: 9px; /* Bordes redondeados uniformes */
+  padding: 10px 15px; /* Padding horizontal para el texto */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
   text-align: center;
-  border-block-style: double;
+  margin-bottom: 20px; /* Espacio entre las cajas, si se apilan */
   box-sizing: border-box;
+  
+  /* Animación para los info-box al pasar el cursor */
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
-/* Estilos específicos para #parrafo (Alimentos peligrosos) */
-#parrafo {
-  background-color: lightgoldenrodyellow;
-  border-color: goldenrod;
+.info-box:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-color: rgba(160, 82, 45, 0.8);
+  z-index: 2;
+}
+
+/* Estilos específicos para los info-box, ahora con fondos de color muy sutil */
+#parrafo { /* Alimentos peligrosos */
+  background-color: rgba(255, 250, 205, 0.08);
+  border-color: rgba(184, 134, 11, 0.4);
   color: darkred;
-  /* Eliminar width: 600px; y la palabra 'text' */
 }
 
-/* Estilos específicos para #sintomas (Señales de enfermedad) */
-#sintomas {
-  background-color: lightpink;
-  border-color: indianred;
+#sintomas { /* Señales de enfermedad */
+  background-color: rgba(255, 192, 203, 0.08);
+  border-color: rgba(205, 92, 92, 0.4);
   color: darkgreen;
-  /* Eliminar width: 600px; */
+}
+
+#cada-cuanto-se-asea {
+  background-color: rgba(144, 238, 144, 0.08);
+  border-color: rgba(0, 100, 0, 0.4);
+  color: #333;
 }
 
 /* Estilo para las imágenes dentro de los .info-box */
@@ -260,9 +159,41 @@ h2 {
   max-width: 100%;
   height: auto;
   margin-top: 10px;
+  border-radius: 5px;
 }
-#cada-cuanto-se-asea { /* ¡ID corregido! */
-  background-color: lightgreen;
-  border-color: darkgreen;
-  color: #333;
+/* Animación para los info-box al pasar el cursor */
+.info-box {
+  transition: all 0.3s ease; /* Hace que todas las transiciones duren 0.3 segundos y sean suaves */
+  position: relative; /* Necesario para que el z-index funcione en algunos navegadores */
+  z-index: 1; /* Asegura que el cuadro elevado esté por encima de los demás */
+}
+
+.info-box:hover {
+  transform: translateY(-5px) scale(1.02); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  border-color: rgba(160, 82, 45, 0.8); 
+  z-index: 2; 
+}
+#moli:hover {
+  transform: translateY(-5px); scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3,);
+  border-color: rgb(160, 82, 45, 0,8);
+  z-index: 2;
+
+}
+#a.hover{
+  transform: translateY(-5px); scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3,);
+  border-color: rgb(160, 82, 45, 0,8);
+  z-index: 2;
+}
+#como-tratar-al-perro{
+  background-color: rgba(255, 192, 203, 0.08);
+  border-color: rgba(205, 92, 92, 0.4);
+  color: darkgreen;
+}
+#Comportamientos{
+  background-color: rgba(255, 192, 203, 0.08);
+  border-color: rgba(205, 92, 92, 0.4);
+  color: darkgreen;
 }
