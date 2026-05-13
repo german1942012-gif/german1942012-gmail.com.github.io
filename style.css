@@ -1,0 +1,268 @@
+h1 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood;
+  border-radius: 10px 0 10px 0;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+}
+body{
+ background-image: url(https://img.freepik.com/fotos-premium/ia-generativa-patas-gato-estetoscopio-aislados-fondo-azul-banner-espacio-copia_93150-35878.jpg);
+ background-repeat: no-repeat;
+background-size:cover ;
+min-height: 100vh;
+}
+
+  #parrafo1 { /* Cambiado de .parrafo1 a #parrafo1 */
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid burlywood;
+  border-radius: 9px 0 9px 0;
+  padding: 10px 0 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+  box-sizing: border-box;
+ 
+
+
+}
+#parrafo2{
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid burlywood;
+  border-radius: 9px 0 9px 0;
+  padding: 10px 0 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+  box-sizing: border-box;
+ 
+}
+a{
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood; /* Un borde sólido de 2px con tu color */
+  border-radius: 10px 0 10px 0; /* Bordes redondeados */
+  padding: 10px; /* Añade un poco de espacio dentro del h1 */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
+  text-align: center;
+  border-block-style: double;
+}
+h2{
+  display: flex;
+flex-direction: column;
+ display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood; /* Un borde sólido de 2px con tu color */
+  border-radius: 10px 0 10px 0; /* Bordes redondeados */
+  padding: 10px; /* Añade un poco de espacio dentro del h1 */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+border-block-style: double;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);}
+#moli{
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood; /* Un borde sólido de 2px con tu color */
+  border-radius: 10px 0 10px 0; /* Bordes redondeados */
+  padding: 10px; /* Añade un poco de espacio dentro del h1 */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
+  text-align: center;
+  border-block-style: double;
+  
+  display: block; /* Asegura que el elemento se comporte como un bloque */
+  width: 50%; /* Define un ancho para la imagen (ajusta el porcentaje según necesites) */
+  margin: 20px auto; /* Centra la imagen horizontalmente y añade margen vertical */
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood;
+  border-radius: 10px 0 10px 0;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+  width: 100px;
+
+
+
+}
+/* --- Limpieza y Reorganización de CSS --- */
+
+/* Estilos para h1 (limpiado de duplicados) */
+h1 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood;
+  border-radius: 10px 0 10px 0;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+}
+
+/* Estilos para body */
+body {
+  background-image: url(https://img.freepik.com/fotos-premium/ia-generativa-patas-gato-estetoscopio-aislados-fondo-azul-banner-espacio-copia_93150-35878.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Estilos para #parrafo1 (limpiado de duplicados) */
+#parrafo1 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid burlywood;
+  border-radius: 9px 0 9px 0;
+  padding: 10px 0 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+  box-sizing: border-box;
+}
+
+/* Estilos para #parrafo2 (limpiado de duplicados) */
+#parrafo2 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid burlywood;
+  border-radius: 9px 0 9px 0;
+  padding: 10px 0 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+  box-sizing: border-box;
+}
+
+/* Estilos para a (limpiado de duplicados) */
+a {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood;
+  border-radius: 10px 0 10px 0;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+}
+
+/* Estilos para h2 (limpiado de duplicados) */
+h2 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 2px solid burlywood;
+  border-radius: 10px 0 10px 0;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+}
+
+/* Estilos para #moli (limpiado de duplicados) */
+#moli {
+  display: block;
+  width: 100px; /* Puedes ajustar este ancho o eliminarlo si la imagen es decorativa */
+  margin: 20px auto;
+  background-color: lightblue; /* Esto probablemente no se vea en una imagen */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Esto no afecta una imagen */
+  border: 2px solid burlywood;
+  border-radius: 10px 0 10px 0;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Esto no afecta una imagen */
+  border-block-style: double;
+}
+
+/* Estilos específicos para #parrafo3 */
+#parrafo3 {
+  color: darkred;
+  background-color: lightcoral;
+}
+
+/* --- Estilos para los elementos lado a lado --- */
+
+/* Contenedor Flex para los párrafos */
+.contenido-doble {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+/* Estilos comunes para los párrafos dentro de .contenido-doble */
+.info-box {
+  width: 45%; /* Permite que dos ítems quepan lado a lado con un gap */
+  background-color: lightblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid burlywood;
+  border-radius: 9px 0 9px 0;
+  padding: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-block-style: double;
+  box-sizing: border-box;
+}
+
+/* Estilos específicos para #parrafo (Alimentos peligrosos) */
+#parrafo {
+  background-color: lightgoldenrodyellow;
+  border-color: goldenrod;
+  color: darkred;
+  /* Eliminar width: 600px; y la palabra 'text' */
+}
+
+/* Estilos específicos para #sintomas (Señales de enfermedad) */
+#sintomas {
+  background-color: lightpink;
+  border-color: indianred;
+  color: darkgreen;
+  /* Eliminar width: 600px; */
+}
+
+/* Estilo para las imágenes dentro de los .info-box */
+.info-box img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+#cada-cuanto-se-asea { /* ¡ID corregido! */
+  background-color: lightgreen;
+  border-color: darkgreen;
+  color: #333;
+}
